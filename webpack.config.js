@@ -1,3 +1,5 @@
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 module.exports = {
 	entry: './index.js',
 	resolve: {
@@ -5,6 +7,11 @@ module.exports = {
 		descriptionFiles: ["bower.json"]
 	},
 	output: {
-		filename: 'bundle.js'
-	}
+		filename: 'bundle/bundle.js'
+	},
+	plugins: [
+		new CopyWebpackPlugin([
+			{ from: 'manifest.json', to: 'bundle/manifest.json' }
+		])
+	]
 }
