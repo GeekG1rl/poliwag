@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+
+	"name": "FT Poliwag",
+	"description": "Hackathon thing",
+	"version": "1.0",
+	"permissions": [
+	  "activeTab"
+	],
+	"content_scripts": [
+	  {
+		"matches": ["https://www.ft.com/*"],
+		"js": ["index.js"]
+	  }
+	]
+  }
+  
