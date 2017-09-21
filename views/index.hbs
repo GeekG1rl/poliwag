@@ -1,28 +1,11 @@
-
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8"/>
-  <title>Poliwag 🦆</title>
-  <link rel="stylesheet" type="text/css" href="main.css">
-</head>
-
-<body>
-  <h2>Do some stuff here</h2>
-    {{{body}}}
-  <script type="text/javascript" src="js/button.js"></script>
-</body>
-
-</html>
-
+<h2>Poliwag 🦆</h2>
 <div>
-  <input class="input-box" type="text">
-  <button class="search-button"> No button needed</button>
-  <div class="user-details"></div>
-  <div class="user-lists"></div>
+	You have <b>19</b> days left of your trial. You can gain up to 7 extra days of free access to the FT by exploring more articles,
+	click on a badge below to get started.
 </div>
-
-
-
+<h3>Explore</h3>
+<div>
+	{{#each medals}}
+	<p>{{name}} {{current}}/{{max}}</p>
+	{{/each}}
+</div>
