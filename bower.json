@@ -12,6 +12,7 @@
     "tests"
   ],
   "dependencies": {
-    "next-session-client": "^2.3.3"
+    "next-session-client": "^2.3.3",
+    "handlebars": "^4.0.10"
   }
 }
