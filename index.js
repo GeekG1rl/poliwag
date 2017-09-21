@@ -1,10 +1,16 @@
+import session from 'next-session-client';
 
-function sendOffAnEvent() {
+function getUserId () {
+	return session.uuid()
+		.then(({ uuid }) => uuid);
+}
 
-//		look up this persons data ID
-//		download their data
-//		add an event to it
-//		push it back up
+function sendOffAnEvent () {
+
+	//		look up this persons data ID
+	//		download their data
+	//		add an event to it
+	//		push it back up
 
 }
 

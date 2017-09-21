@@ -1,0 +1,23 @@
+{
+  "name": "poliwag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeekG1rl/poliwag.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeekG1rl/poliwag/issues"
+  },
+  "homepage": "https://github.com/GeekG1rl/poliwag#readme",
+  "devDependencies": {
+    "bower": "^1.8.2",
+    "webpack": "^3.6.0"
+  }
+}

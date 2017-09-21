@@ -1,0 +1,17 @@
+{
+  "name": "poliwag",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/GeekG1rl/poliwag",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "next-session-client": "^2.3.3"
+  }
+}
