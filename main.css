@@ -2,3 +2,7 @@ body {
   padding-top: 100px;
   color: #FF0062;
 }
+
+.pw-medal {
+	border: 1px solid gold;
+}

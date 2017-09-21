@@ -12,7 +12,7 @@ module.exports = {
   plugins: [
     new CopyWebpackPlugin([
     { from: 'manifest.json', to: 'bundle/manifest.json' },
-    { from: 'main.css', to: 'bundle/main.css' },
+    { from: 'main.css', to: 'bundle/main.css' }
     ]),
   ],
 };
