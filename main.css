@@ -6,6 +6,11 @@
 
 .pw-medal img {
 	width: 100%;
+	opacity: 0.2;
+}
+
+.pw-medal--got img {
+	opacity: 1;
 }
 
 .o-banner {
