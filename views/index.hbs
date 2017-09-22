@@ -1,4 +1,4 @@
-<div class="o-grid-container">
+<div class="o-grid-container polywag">
 	<div "o-grid-row">
 		<h2>Poliwag 🦆</h2>
 		<div>
@@ -8,7 +8,7 @@
 		<h3>Explore</h3>
 		<div class="o-grid-row">
 			{{#each medals}}
-			<div data-o-grid-colspan="3 M2 L1" onclick="window.location = '/myft/explore?award={{name}}'">
+			<div data-o-grid-colspan="3 L2" onclick="window.location = '/myft/explore?award={{name}}'">
 				<div class="pw-medal {{#if got}}pw-medal--got{{/if}}">
 					<p>{{name}}</p>
 					<img src="{{iconSource}}" />
