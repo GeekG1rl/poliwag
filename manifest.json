@@ -5,7 +5,8 @@
 	"description": "Hackathon thing",
 	"version": "1.0",
 	"permissions": [
-	  "activeTab"
+		"activeTab",
+		"notifications"
 	],
 	"content_scripts": [
 	  {
