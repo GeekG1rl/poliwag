@@ -31,8 +31,6 @@
 
 .progress-container-container {
 	position: relative;
-	width: 200px;
-	margin: auto;
 }
 
 .progress-container {
@@ -54,4 +52,14 @@
 
 .centre-img {
 	text-align: center;
+}
+
+.centre-img img {
+	width: 90px;
+}
+
+
+.centre-img .progress-container-container {
+	width: 200px;
+	margin: auto;
 }
