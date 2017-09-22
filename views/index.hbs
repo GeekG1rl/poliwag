@@ -8,14 +8,16 @@
 		<h3>Explore</h3>
 		<div class="o-grid-row">
 			{{#each medals}}
-			<div class="pw-medal" data-o-grid-colspan="3 M2 L1" onclick="window.location = '/myft/explore?award={{name}}'">
-				<p>{{name}}</p>
-				<img src="{{iconSource}}" />
-				<p>{{current}}/{{max}}</p>
-				<div class='progress-container-container'>
-					<div class='progress-container'>
+			<div data-o-grid-colspan="3 M2 L1" onclick="window.location = '/myft/explore?award={{name}}'">
+				<div class="pw-medal">
+					<p>{{name}}</p>
+					<img src="{{iconSource}}" />
+					<p>{{current}}/{{max}}</p>
+					<div class='progress-container-container'>
+						<div class='progress-container'>
+						</div>
+						<div class='progress' style='right:{{percentRemaining}}%;'></div>
 					</div>
-					<div class='progress' style='right:{{percentRemaining}}%;'></div>
 				</div>
 			</div>
 			{{/each}}
