@@ -30,7 +30,9 @@
 }
 
 .progress-container-container {
-	position: relative
+	position: relative;
+	width: 200px;
+	margin: auto;
 }
 
 .progress-container {
@@ -48,4 +50,8 @@
 	height: 3px;
 	left: 0;
 	background-color: #9E2F50;
+}
+
+.centre-img {
+	text-align: center;
 }

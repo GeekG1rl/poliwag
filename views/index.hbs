@@ -1,11 +1,10 @@
 <div class="o-grid-container polywag">
 	<div "o-grid-row">
-		<h2>Poliwag 🦆</h2>
+		<h2>FT Awards 🦆</h2>
 		<div>
 			You have <b>19</b> days left of your trial. You can gain up to 7 extra days of free access to the FT by exploring more
 			articles, click on a badge below to get started.
 		</div>
-		<h3>Explore</h3>
 		<div class="o-grid-row">
 			{{#each medals}}
 			<div data-o-grid-colspan="3 L2" onclick="window.location = '/myft/explore?award={{name}}'">
@@ -14,8 +13,7 @@
 					<img src="{{iconSource}}" />
 					<p>{{current}}/{{max}}</p>
 					<div class='progress-container-container'>
-						<div class='progress-container'>
-						</div>
+						<div class='progress-container'></div>
 						<div class='progress' style='right:{{percentRemaining}}%;'></div>
 					</div>
 				</div>
