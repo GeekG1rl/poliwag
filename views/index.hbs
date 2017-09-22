@@ -9,7 +9,7 @@
 		<div class="o-grid-row">
 			{{#each medals}}
 			<div data-o-grid-colspan="3 M2 L1" onclick="window.location = '/myft/explore?award={{name}}'">
-				<div class="pw-medal">
+				<div class="pw-medal {{#if got}}pw-medal--got{{/if}}">
 					<p>{{name}}</p>
 					<img src="{{iconSource}}" />
 					<p>{{current}}/{{max}}</p>
