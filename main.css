@@ -5,6 +5,7 @@ body {
 
 .pw-medal {
 	text-align: center;
+	cursor: pointer;
 }
 
 .o-banner {

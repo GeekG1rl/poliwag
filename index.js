@@ -1,6 +1,6 @@
 import articlePage from './lib/pages/article';
 import myFtPage from './lib/pages/myft';
-import myFtExplorePage from './lib/pages/myft/explore';
+import myFtExplorePage from './lib/pages/myft-explore';
 import homePage from './lib/pages/homepage';
 
 const ifContent = window.location.href.indexOf('content') !== -1; // check if this is an article page
