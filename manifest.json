@@ -1,6 +1,5 @@
 {
 	"manifest_version": 2,
-
 	"name": "FT Poliwag",
 	"description": "Hackathon thing",
 	"version": "1.0",
@@ -10,9 +9,9 @@
 	],
 	"content_scripts": [
 	  {
-		"matches": ["https://www.ft.com/*"],
-		"js": ["bundle.js"],
-		"css": ["main.css", "o-banner.css"]
+			"matches": ["https://www.ft.com/*"],
+			"js": ["bundle.js"],
+			"css": ["main.css", "o-banner.css"]
 	  }
 	]
-  }
+}
