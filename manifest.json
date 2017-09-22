@@ -12,7 +12,7 @@
 	  {
 		"matches": ["https://www.ft.com/*"],
 		"js": ["bundle.js"],
-		"css": ["main.css"]
+		"css": ["main.css", "o-banner.css"]
 	  }
 	]
   }
