@@ -12,6 +12,11 @@
 				<p>{{name}}</p>
 				<img src="{{iconSource}}" />
 				<p>{{current}}/{{max}}</p>
+				<div class='progress-container-container'>
+					<div class='progress-container'>
+					</div>
+					<div class='progress' style='right:{{percentRemaining}}%;'></div>
+				</div>
 			</div>
 			{{/each}}
 		</div>

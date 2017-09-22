@@ -1,11 +1,7 @@
-body {
-  padding-top: 100px;
-  color: #33302e;
-}
-
 .pw-medal {
 	text-align: center;
 	cursor: pointer;
+	margin: 0 14px;
 }
 
 .o-banner {
@@ -18,4 +14,25 @@ body {
 
 .topic-search, .myft-toolbar, .myft__dashboard, .myft__recommendation {
 	display: none !important;
+}
+
+.progress-container-container {
+	position: relative
+}
+
+.progress-container {
+	position: absolute;
+	bottom: 3px;
+	height: 3px;
+	left: 0;
+	right: 0;
+	background-color: white;
+}
+
+.progress {
+	position: absolute;
+	bottom: 3px;
+	height: 3px;
+	left: 0;
+	background-color: #9E2F50;
 }
