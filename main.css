@@ -4,6 +4,10 @@
 	margin: 0 10px;
 }
 
+.pw-medal img {
+	width: 100%;
+}
+
 .o-banner {
 	z-index: 1000;
 }
