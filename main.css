@@ -15,3 +15,7 @@ body {
 .o-banner__inner {
 	background-color: #9E2F50 !important;
 }
+
+.topic-search, .myft-toolbar, .myft__dashboard, .myft__recommendation {
+	display: none !important;
+}
