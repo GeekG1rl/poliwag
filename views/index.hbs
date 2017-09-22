@@ -11,11 +11,13 @@
 				<div class="pw-medal {{#if got}}pw-medal--got{{/if}}">
 					<p>{{name}}</p>
 					<img src="{{iconSource}}" />
-					<p>{{current}}/{{max}}</p>
+					<div>{{current}}/{{max}}</div>
+					<br>
 					<div class='progress-container-container'>
 						<div class='progress-container'></div>
 						<div class='progress' style='right:{{percentRemaining}}%;'></div>
 					</div>
+					<br>
 				</div>
 			</div>
 			{{/each}}
