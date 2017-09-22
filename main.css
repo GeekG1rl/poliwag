@@ -4,5 +4,13 @@ body {
 }
 
 .pw-medal {
-  text-align: center;
+	text-align: center;
+}
+
+.o-banner {
+	z-index: 1000;
+}
+
+.o-banner__inner {
+	background-color: #9E2F50 !important;
 }
