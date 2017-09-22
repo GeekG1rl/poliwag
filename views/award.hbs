@@ -1,9 +1,17 @@
 <div class="o-grid-container">
-	<div "o-grid-row">
+	<div "o-grid-row" class="centre-img">
+		<br>
 		{{#with award}}
-		<img src="{{iconSource}}" />
+		<img src="{{iconSource}}"/>
+
 		<h2>{{name}}</h2>
-		<p>{{name}} {{current}}/{{max}}</p>
+		<p>{{current}}/{{max}}</p>
+
+		<div class='progress-container-container'>
+			<div class='progress-container'></div>
+			<div class='progress' style='right:{{percentRemaining}}%;'></div>
+		</div>
+
 		<div>
 			{{description}}
 		</div>
